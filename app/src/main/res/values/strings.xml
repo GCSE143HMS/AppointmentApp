@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">DoctorAppointmentApp</string>
+    <string-array name="qualification">
+        <item>Select Qualification</item>
+        <item>MBBS</item>
+        <item>MD</item>
+        <item>Aurvedic</item>
+        <item>Homeopathy</item>
+    </string-array>
+
+    <string-array name="specialization">
+        <item>Select Specialization</item>
+        <item>General Physician</item>
+        <item>Surgeon</item>
+        <item>Children Specialist</item>
+        <item>Orthopeadic</item>
+    </string-array>
+
+    <string-array name="medicinetypes">
+        <item>Select Type</item>
+        <item>Tablets</item>
+        <item>Syrup</item>
+        <item>Injection</item>
+        <item>Liquid</item>
+    </string-array>
+    <string name="title_activity_patient_login">PatientLoginActivity</string>
+
+
+    <string name="title_activity_user_main">UserMainPageActivity</string>
+</resources>

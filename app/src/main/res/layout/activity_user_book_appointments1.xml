@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".UserBookAppointmentsActivity1">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical|center_horizontal"
+            android:textAlignment="center"
+            android:gravity="center"
+            android:textColor="@color/green"
+            android:textSize="40sp"
+            android:textStyle="bold"
+            android:text="Patient-Doctor Mobile App" />
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="User Book Appointment Page"
+            android:textColor="@color/cardview_dark_background"
+            android:textAlignment="center"
+            android:textSize="40sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textViewDocName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Doctor Name"
+            android:textColor="@color/cardview_dark_background"
+            android:textAlignment="center"
+            android:textSize="25sp"
+            android:layout_marginTop="40dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textViewDocType"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Doctor Type"
+            android:textColor="@color/cardview_dark_background"
+            android:textAlignment="center"
+            android:textSize="25sp"
+            android:layout_marginTop="40dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textViewDocSpecia"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Specialization"
+            android:textColor="@color/cardview_dark_background"
+            android:textAlignment="center"
+            android:textSize="25sp"
+            android:layout_marginTop="40dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textViewDocPhNum"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Phone Num"
+            android:textColor="@color/cardview_dark_background"
+            android:textAlignment="center"
+            android:textSize="25sp"
+            android:layout_marginTop="40dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textViewGender"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Gender"
+            android:textColor="@color/cardview_dark_background"
+            android:textAlignment="center"
+            android:textSize="25sp"
+            android:layout_marginTop="40dp"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/textDate"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:text="Date"
+                android:textColor="@color/cardview_dark_background"
+                android:textAlignment="center"
+                android:textSize="25sp"
+                android:layout_marginTop="20dp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/datebutton"
+                android:layout_marginLeft="75dp"
+                android:layout_width="150dp"
+                android:layout_height="75dp"
+                android:gravity="center"
+                android:textAlignment="center"
+                android:layout_gravity="center_vertical|center_horizontal"
+                android:text="Pick Date" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/textTime"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:text="Time"
+                android:textColor="@color/cardview_dark_background"
+                android:textAlignment="center"
+                android:textSize="25sp"
+                android:layout_marginTop="20dp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/timebutton"
+                android:layout_marginLeft="75dp"
+                android:layout_width="150dp"
+                android:layout_height="75dp"
+                android:gravity="center"
+                android:textAlignment="center"
+                android:layout_gravity="center_vertical|center_horizontal"
+                android:text="Pick Time" />
+
+        </LinearLayout>
+
+
+        <Button
+            android:id="@+id/bookappbutton"
+            android:layout_marginTop="40dp"
+            android:layout_width="200dp"
+            android:layout_height="75dp"
+            android:gravity="center"
+            android:textAlignment="center"
+            android:layout_gravity="center_vertical|center_horizontal"
+            android:text="Book Appointment" />
+
+        <Button
+            android:id="@+id/buttonGoback"
+            android:layout_marginTop="40dp"
+            android:layout_width="200dp"
+            android:layout_height="75dp"
+            android:gravity="center"
+            android:textAlignment="center"
+            android:layout_gravity="center_vertical|center_horizontal"
+            android:text="Go Back"
+            android:textStyle="bold" />
+    </LinearLayout>
+    </ScrollView>
+</RelativeLayout>
